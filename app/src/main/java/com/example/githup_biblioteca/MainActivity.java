@@ -71,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
             listaLibro.add("Farenheith");
             listaLibro.add("Revival");
             listaLibro.add("ElAlquimista");
+            listaLibro.add("Elpoder");
+            listaLibro.add("Despertar");
 
             Intent i = new Intent(getBaseContext(), githup_act.class);
             i.putExtra("listaLibro",listaLibro);
@@ -84,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         listaLibro.add("Farenheith");
         listaLibro.add("Revival");
         listaLibro.add("ElAlquimista");
+        listaLibro.add("Elpoder");
+        listaLibro.add("Despertar");
 
         Intent i = new Intent(getBaseContext(), githup_act.class);
         i.putExtra("listaLibro",listaLibro);

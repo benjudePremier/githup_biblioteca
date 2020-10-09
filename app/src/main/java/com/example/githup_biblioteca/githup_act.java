@@ -49,6 +49,15 @@ public class githup_act extends AppCompatActivity {
             txt.setText("El valor del Alquimista es : "+lb.getElAlquimista());
         }
 
+        if(libros.equals("Elpoder"))
+        {
+            txt.setText("El valor del poder es : " + lb.getElpoder());
+        }
+        if(libros.equals("Despertar"))
+        {
+            txt.setText("El valor del Despertar es : "+lb.getDespertar());
+        }
+
 
     }
 }

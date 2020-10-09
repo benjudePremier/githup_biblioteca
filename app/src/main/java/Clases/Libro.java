@@ -5,12 +5,16 @@ public class Libro {
     private int farenheith;
     private int revival;
     private int ElAlquimista;
+    private int Elpoder;
+    private  int Despertar;
 
     public Libro()
     {
-        farenheith= 5000;
-        revival = 12000;
+        farenheith= 7000;
+        revival = 22000;
         ElAlquimista = 45000;
+        Elpoder = 88000;
+        Despertar = 156000;
     }
 
     public int getFarenheith()
@@ -25,4 +29,6 @@ public class Libro {
     {
         return ElAlquimista;
     }
+    public int getElpoder(){return Elpoder;}
+    public int getDespertar(){return Despertar; }
 }
